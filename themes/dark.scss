@@ -1,0 +1,54 @@
+//
+//
+//  Colors Theme - Dark
+//
+//
+
+$theme-dark: (
+  bg:                         #0f0e17,
+  headline:                   #fffffe,
+  text:                       #f0f1f4,
+  text-thin:                  lighten(#f0f1f4, 25),
+  link:                       #e53170,
+  border:                     #181818,
+  border-thin:                lighten(#181818, 70),
+
+  // pre
+  pre-bg:                     #fffffe,
+  pre-border:                 #cbff00,
+  pre-text:                   #2e2e2e,
+
+  // code
+  code-bg:                    #daf1e0,
+  code-text:                  #228b22,
+
+  // kbd
+  kbd-bg:                     #f2eef5,
+  kbd-text:                   #181818,
+  kbd-border:                 #181818,
+
+  // mark
+  mark-bg:                    #fbdd74,
+  mark-text:                  #2e2e2e,
+
+  // buttons
+  btn-bg:                     #ffffff,
+  btn-text:                   #181818,
+  btn-bg-hover:               darken(#ffffff, 15),
+  btn-text-hover:             darken(#181818, 15),
+  btn-bg-disabled:            darken(#ffffff, 30),
+  btn-text-disabled:          darken(#181818, 30),
+  btn-submit-bg:              #4fc4cf,
+  btn-submit-text:            #181818,
+  btn-submit-bg-hover:        darken(#4fc4cf, 15),
+  btn-submit-text-hover:      darken(#181818, 15),
+  btn-submit-bg-disabled:     darken(#4fc4cf, 30),
+  btn-submit-text-disabled:   darken(#181818, 30),
+  btn-reset-bg:               #ffffff,
+  btn-reset-text:             #181818,
+  btn-reset-bg-hover:         darken(#ffffff, 15),
+  btn-reset-text-hover:       darken(#181818, 15),
+  btn-reset-bg-disabled:      darken(#ffffff, 30),
+  btn-reset-text-disabled:    darken(#181818, 30),
+);
+

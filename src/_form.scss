@@ -1,0 +1,89 @@
+//
+//
+//  Form
+//
+//
+
+form {
+  margin-bottom: 1.75rem;
+}
+
+fieldset {
+  margin-bottom: 1.75rem;
+  padding: 1.0rem 1.75rem;
+  border-radius: $radius;
+
+  legend {
+    display: block;
+  }
+
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+}
+
+label {
+  display: inline-block;
+  margin-right: 0.75rem;
+
+  > input {
+    margin-bottom: 0;
+  }
+}
+
+
+//-----------------------------------------------------------------------------
+// Input
+//-----------------------------------------------------------------------------
+input, textarea, select, button {
+  display: inline-block;
+  border-radius: $radius;
+  padding: 0.5rem 0.75rem;
+}
+
+select {
+  padding-right: 2.0rem;
+}
+
+select[multiple] {
+  min-width: $space * 14;
+}
+
+textarea {
+  min-height: 7.0rem;
+  min-width: 25.0rem;
+  //resize: both;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: $space * 0.5;
+  vertical-align: baseline;
+  cursor: pointer;
+}
+
+input[type="color"] {
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  padding: 1px 2px;
+  height: 25px;
+  width: 45px;
+}
+
+input[type="submit"],
+input[type="reset"],
+button {
+  display: inline;
+  cursor: pointer;
+  text-align: center;
+
+  margin: 1.0rem 0.5rem 1.0rem 0;
+  padding: 0.5rem 1.75rem;
+
+  &[disabled] {
+    cursor: not-allowed;
+  }
+}
+

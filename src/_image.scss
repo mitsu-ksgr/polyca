@@ -1,0 +1,25 @@
+//
+//
+//  Image
+//
+//
+
+img {
+  height: auto;
+  margin: 0 auto;
+}
+
+figcaption {
+  font-size: 1.6rem;
+}
+
+figure {
+  img {
+    display: block;
+  }
+
+  figcaption {
+    text-align: center
+  }
+}
+

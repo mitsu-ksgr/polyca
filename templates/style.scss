@@ -1,0 +1,99 @@
+//
+//  Style Template
+//
+body.theme-xxxx {
+  background: map-get($theme-xxxx, bg);
+  color: map-get($theme-xxxx, text);
+
+  article {
+    background: map-get($theme-xxxx, bg);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: map-get($theme-xxxx, headline);
+  }
+
+  a {
+    color: map-get($theme-xxxx, link);
+  }
+
+  figcaption {
+    color: map-get($theme-xxxx, text-thin);
+  }
+
+  blockquote {
+    border-left-color: map-get($theme-xxxx, border-thin);
+    footer {
+      color: map-get($theme-xxxx, text-thin);
+    }
+  }
+
+  pre {
+    background: map-get($theme-xxxx, pre-bg);
+    border-left-color: map-get($theme-xxxx, pre-border);
+    color: map-get($theme-xxxx, pre-text);
+  }
+
+  code {
+    background: map-get($theme-xxxx, code-bg);
+    color: map-get($theme-xxxx, code-text);
+  }
+
+  kbd {
+    background: map-get($theme-xxxx, kbd-bg);
+    color: map-get($theme-xxxx, kbd-text);
+    border-color: map-get($theme-xxxx, kbd-border);
+  }
+
+  mark {
+    background: map-get($theme-xxxx, mark-bg);
+    color: map-get($theme-xxxx, mark-text);
+  }
+
+  select option {
+    background: map-get($theme-xxxx, bg);
+    color: map-get($theme-xxxx, text);
+  }
+
+  button {
+    background: map-get($theme-xxxx, btn-bg);
+    color: map-get($theme-xxxx, btn-text);
+    &:hover {
+      background: map-get($theme-xxxx, btn-bg-hover);
+      color: map-get($theme-xxxx, btn-text-hover);
+    }
+    &[disabled] {
+      background: map-get($theme-xxxx, btn-bg-disabled);
+      color: map-get($theme-xxxx, btn-text-disabled);
+    }
+  }
+
+  button[type="submit"],
+  input[type="submit"] {
+    background: map-get($theme-xxxx, btn-submit-bg);
+    color: map-get($theme-xxxx, btn-submit-text);
+    &:hover {
+      background: map-get($theme-xxxx, btn-submit-bg-hover);
+      color: map-get($theme-xxxx, btn-submit-text-hover);
+    }
+    &[disabled] {
+      background: map-get($theme-xxxx, btn-submit-bg-disabled);
+      color: map-get($theme-xxxx, btn-submit-text-disabled);
+    }
+  }
+
+  button[type="reset"],
+  input[type="reset"] {
+    background: map-get($theme-xxxx, btn-reset-bg);
+    color: map-get($theme-xxxx, btn-reset-text);
+    &:hover {
+      background: map-get($theme-xxxx, btn-reset-bg-hover);
+      color: map-get($theme-xxxx, btn-reset-text-hover);
+    }
+    &[disabled] {
+      background: map-get($theme-xxxx, btn-reset-bg-disabled);
+      color: map-get($theme-xxxx, btn-reset-text-disabled);
+    }
+  }
+}
+

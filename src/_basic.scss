@@ -1,0 +1,126 @@
+//
+//
+//  Basic HTML tags
+//
+//  - Basic HTML
+//  - Heading
+//  - Document tags
+//
+//
+
+
+//-----------------------------------------------------------------------------
+// Basic HTML
+//-----------------------------------------------------------------------------
+html, body {
+  width: 100%;
+}
+
+html {
+  height: 100%;
+  font-size: 62.5%; // 16px * 62.5% = 10px
+}
+
+body {
+  margin: auto;
+  padding: $space * 2;
+  font-family: $font-sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+
+//-----------------------------------------------------------------------------
+//  Heading
+//-----------------------------------------------------------------------------
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  word-break: break-word;
+}
+
+h1 {
+  font-size: 4.0rem;
+  letter-spacing: -0.1rem;
+}
+
+h2 {
+  font-size: 3.6rem;
+  letter-spacing: -0.1rem;
+}
+
+h3 {
+  font-size: 3.2rem;
+  letter-spacing: -0.08rem;
+}
+
+h4 {
+  font-size: 2.8rem;
+  letter-spacing: -0.08rem;
+}
+
+h5 {
+  font-size: 2.4rem;
+  letter-spacing: -0.05rem;
+}
+
+h6 {
+  font-size: 2.0rem;
+  letter-spacing: -0.05rem;
+}
+
+
+//-----------------------------------------------------------------------------
+// Document tag
+//-----------------------------------------------------------------------------
+p {
+}
+
+br {
+}
+
+hr {
+}
+
+header {
+  padding: $space * 0.5 0;
+}
+
+footer {
+  padding: $space * 1.25;
+}
+
+main {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50 * $space;
+  max-width: 100%;
+}
+
+article {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: $space * 1.25;
+  //border-width: 1px;
+  //border-style: solid;
+}
+
+section {
+  margin-top: $space * 0.5;
+  margin-bottom: $space * 0.5;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50 * $space;
+  max-width: 100%;
+}
+
+aside {
+  width: 40%;
+  float: right;
+
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+  font-style: italic;
+}
+

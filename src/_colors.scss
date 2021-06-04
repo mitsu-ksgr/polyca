@@ -1,0 +1,154 @@
+//
+//
+//  Colors
+//
+//
+
+//-----------------------------------------------------------------------------
+//  Light Theme (Default)
+//-----------------------------------------------------------------------------
+$theme-light: (
+  bg:                         #fffffe,
+  headline:                   #181818,
+  text:                       #2e2e2e,
+  text-thin:                  lighten(#2e2e2d, 25),
+  link:                       #4fc4cf,
+  border:                     #181818,
+  border-thin:                lighten(#181818, 70),
+
+  // pre
+  pre-bg:                     #f8f8f8,
+  pre-border:                 #cbff00,
+  pre-text:                   #2e2e2e,
+
+  // code
+  code-bg:                    #daf1e0,
+  code-text:                  #228b22,
+
+  // kbd
+  kbd-bg:                     #f2eef5,
+  kbd-text:                   #181818,
+  kbd-border:                 #181818,
+
+  // mark
+  mark-bg:                    #fbdd74,
+  mark-text:                  #2e2e2e,
+
+  // buttons
+  btn-bg:                     #ffffff,
+  btn-text:                   #181818,
+  btn-bg-hover:               darken(#ffffff, 15),
+  btn-text-hover:             darken(#181818, 15),
+  btn-bg-disabled:            darken(#ffffff, 30),
+  btn-text-disabled:          darken(#181818, 30),
+  btn-submit-bg:              #4fc4cf,
+  btn-submit-text:            #181818,
+  btn-submit-bg-hover:        darken(#4fc4cf, 15),
+  btn-submit-text-hover:      darken(#181818, 15),
+  btn-submit-bg-disabled:     darken(#4fc4cf, 30),
+  btn-submit-text-disabled:   darken(#181818, 30),
+  btn-reset-bg:               #ffffff,
+  btn-reset-text:             #181818,
+  btn-reset-bg-hover:         darken(#ffffff, 15),
+  btn-reset-text-hover:       darken(#181818, 15),
+  btn-reset-bg-disabled:      darken(#ffffff, 30),
+  btn-reset-text-disabled:    darken(#181818, 30),
+);
+
+
+body {
+  background: map-get($theme-light, bg);
+  color: map-get($theme-light, text);
+}
+
+article {
+  background: map-get($theme-light, bg);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: map-get($theme-light, headline);
+}
+
+a {
+  color: map-get($theme-light, link);
+}
+
+figcaption {
+  color: map-get($theme-light, text-thin);
+}
+
+blockquote {
+  border-left-color: map-get($theme-light, border-thin);
+  footer {
+    color: map-get($theme-light, text-thin);
+  }
+}
+
+pre {
+  background: map-get($theme-light, pre-bg);
+  border-left-color: map-get($theme-light, pre-border);
+  color: map-get($theme-light, pre-text);
+}
+
+code {
+  background: map-get($theme-light, code-bg);
+  color: map-get($theme-light, code-text);
+}
+
+kbd {
+  background: map-get($theme-light, kbd-bg);
+  color: map-get($theme-light, kbd-text);
+  border-color: map-get($theme-light, kbd-border);
+}
+
+mark {
+  background: map-get($theme-light, mark-bg);
+  color: map-get($theme-light, mark-text);
+}
+
+select option {
+  background: map-get($theme-light, bg);
+  color: map-get($theme-light, text);
+}
+
+button {
+  background: map-get($theme-light, btn-bg);
+  color: map-get($theme-light, btn-text);
+  &:hover {
+    background: map-get($theme-light, btn-bg-hover);
+    color: map-get($theme-light, btn-text-hover);
+  }
+  &[disabled] {
+    background: map-get($theme-light, btn-bg-disabled);
+    color: map-get($theme-light, btn-text-disabled);
+  }
+}
+
+button[type="submit"],
+input[type="submit"] {
+  background: map-get($theme-light, btn-submit-bg);
+  color: map-get($theme-light, btn-submit-text);
+  &:hover {
+    background: map-get($theme-light, btn-submit-bg-hover);
+    color: map-get($theme-light, btn-submit-text-hover);
+  }
+  &[disabled] {
+    background: map-get($theme-light, btn-submit-bg-disabled);
+    color: map-get($theme-light, btn-submit-text-disabled);
+  }
+}
+
+button[type="reset"],
+input[type="reset"] {
+  background: map-get($theme-light, btn-reset-bg);
+  color: map-get($theme-light, btn-reset-text);
+  &:hover {
+    background: map-get($theme-light, btn-reset-bg-hover);
+    color: map-get($theme-light, btn-reset-text-hover);
+  }
+  &[disabled] {
+    background: map-get($theme-light, btn-reset-bg-disabled);
+    color: map-get($theme-light, btn-reset-text-disabled);
+  }
+}
+

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="dist/polyca.css">
+    <title>polyca.css</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <h1>polyca-css</h1>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">GitHub</a></li>
+          <li><a href="#">Twitter</a></li>
+        </ul>
+      </nav>
+      <nav>
+        <form>
+          <select id="theme" name="theme">
+            <option value="light">Light (default)</option>
+            <option value="dark">Dark</option>
+            <option value="sakura">Sakura</option>
+          </select>
+        </form>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <section>
+          <header>
+            <h2 style="text-align:center;">
+              Polyca css testing page
+            </h2>
+          </header>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </section>
+
+        <section>
+          <header>
+            <h3>Heading</h3>
+          </header>
+
+          <h1>Head 1</h1>
+          <h2>Head 2</h2>
+          <h3>Head 3</h3>
+          <h4>Head 4</h4>
+          <h5>Head 5</h5>
+          <h6>Head 6</h6>
+        </section>
+
+        <section>
+          <header><h3>Typography</h3></header>
+
+          <p>This is a <b>Bold</b> string.</p>
+          <p>This is a <i>Italic</i> string.</p>
+          <p>This is a <strong>Strong</strong> string.</p>
+          <p>This is a <small>Small</small> string.</p>
+          <p>This is a <mark>Mark</mark> string.</p>
+          <p>This is a <s>Strike</s> string.</p>
+          <p>This is a <u>Underline</u> string.</p>
+          <p>This is a <del>Deleted</del> string.</p>
+          <p>This is a <ins>Inserted</ins> string.</p>
+          <p>This is a <em>Emphasis</em> string.</p>
+          <p>This is a <var>Variable</var> string.</p>
+          <p>This is a <code>{ code }</code> string.</p>
+          <p>This is a <kbd>Keycap</kbd> string.</p>
+
+          <blockquote>
+            This is a blockquote string.
+
+            <footer>— someone</footer>
+          </blockquote>
+        </section>
+
+        <section>
+          <header><h3>Code</h3></header>
+          <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;link rel="stylesheet" href="polyca.css" /&gt;
+  &lt;/head&gt;
+&lt;/html&gt;
+          </pre>
+        </section>
+
+        <section>
+          <header><h3>Table</h3></header>
+          <table>
+            <thead>
+              <tr>
+                <th>Distribution</th>
+                <th>Family</th>
+                <th>Initial release</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Debian</td>
+                <td>Linux</td>
+                <td>1993/08/16</td>
+              </tr>
+              <tr>
+                <td>FreeBSD</td>
+                <td>BSD</td>
+                <td>1993/11/01</td>
+              </tr>
+              <tr>
+                <td>Fedora</td>
+                <td>Linux</td>
+                <td>2003/11/16</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section>
+          <header><h3>Lists</h3></header>
+          <ul>
+            <li>
+              Item 1
+              <ol>
+                <li>Item 1-1</li>
+                <li>
+                  Item 1-2
+                  <ul>
+                    <li>Item 1-2-1</li>
+                    <li>Item 1-2-2</li>
+                    <li>Item 1-2-3</li>
+                    <li>Item 1-2-4</li>
+                  </ul>
+                </li>
+                <li>Item 1-3</li>
+              </ol>
+            </li>
+            <li>Item 2</li>
+          </ul>
+
+          <dl>
+            <dt>Dog</dt>
+            <dt>Doggo</dt>
+            <dd>kawaii, mohumohu</dd>
+
+            <dt>Cat</dt>
+            <dd>kawaii, mohumohu</dd>
+            <dd>netoru</dd>
+          </dl>
+        </section>
+
+        <section>
+          <header><h3>Aside</h3></header>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <aside>
+            <p>auqila angam erolod te erobal tu tnudidicni ropmet domsuie od des ,tile gnicsipida rutetcesnoc ,tema tis rolod muspi meroL</p>
+          </aside>
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+        </section>
+
+        <section>
+          <header><h3>Forms</h3></header>
+          <form method="get" action="#">
+            <fieldset>
+              <legend>Fieldset 1</legend>
+
+              <label for="email">Your e-mail:</label>
+              <input type="text" id="email" name="email" size="50"
+                                                         placeholder="your-email@example.com" />
+
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="password" size="50"
+                                                                   placeholder="Enter your password!" />
+
+              <label for="drink">Your most favorite:</label>
+              <select id="drink" name="drink">
+                <option value="tea">Tea</option>
+                <option value="coffee">Coffee</option>
+                <option value="juice">Juice</option>
+                <option value="milk">Milk</option>
+                <option value="beer">Beer</option>
+                <option value="sake">Sake</option>
+                <option value="vodka">Vodka</option>
+                <option value="wine">Wine</option>
+                <option value="ethanol">Ethanol</option>
+              </select>
+
+              <label for="age">Your are:</label>
+              <label><input type="radio" id="under" name="age" value="under" />Under 18</label>
+              <label><input type="radio" id="over" name="age" value="over"/> I'm over 18</label>
+
+              <label for="lang">Your languages:</label>
+              <select multiple="multiple" id="lang" name="lang">
+                <optgroup label="Compiled language">
+                  <option value="1">C</option>
+                  <option value="2">C++</option>
+                  <option value="3">Rust</option>
+                  <option value="4">Go</option>
+                </optgroup>
+                <optgroup label="Interpreter">
+                  <option value="5">Perl</option>
+                  <option value="6">Python</option>
+                  <option value="7">Ruby</option>
+                </optgroup>
+                <option value="8">English</option>
+                <option value="9">Japanese</option>
+              </select>
+
+              <label for="message">Message: </label>
+              <textarea id="message" name="message" placeholder="hello world!"></textarea>
+
+              <div>
+                <input type="color" id="color" name="color" value="#ff7700"/>
+                <label for="color">Color</label>
+              </div>
+
+              <label>
+                <input type="checkbox" id="tos" name="tos" value="agree"/>
+                I agree to terms and privacy policy.
+              </label>
+
+              <button type="submit">Submit</button>
+              <button type="reset">Reset</button>
+              <button disabled>SELF DESTRUCT</button>
+            </fieldset>
+          </form>
+        </section>
+
+        <section>
+          <header><h3>Images</h3></header>
+
+          <figure>
+            <img src="https://via.placeholder.com/150" alt="placeholder image 150px" />
+            <figcaption>150x150</figcaption>
+          </figure>
+          <figure>
+            <img src="https://via.placeholder.com/512" alt="placeholder image 512px" />
+            <figcaption>512x512</figcaption>
+          </figure>
+          <figure>
+            <img src="https://via.placeholder.com/1024x512" alt="placeholder image 1024px x 512px" />
+            <figcaption>1024x512</figcaption>
+          </figure>
+        </section>
+      </article>
+    </main>
+
+    <footer>
+      <nav>
+        <ul>
+          <li>polyca-css</li>
+        </ul>
+      </nav>
+    </footer>
+
+    <script>
+      (() => {
+        // Get theme string.
+        const theme = (() => {
+          const match = location.search.match(/theme=(.*?)(&|$)/);
+          if (match) {
+            return decodeURIComponent(match[1]);
+          }
+          return 'light'; // default
+        })();
+        const theme_cls = `theme-${theme}`;
+
+        // Set default theme.
+        document.getElementById("theme").value = theme;
+        document.getElementsByTagName("body")[0].setAttribute("class", theme_cls);
+
+        document
+          .getElementById("theme")
+          .addEventListener("change", function() {
+            const item = this.options[this.selectedIndex];
+            document.body.setAttribute("class", "theme-" + item.value);
+          });
+      })();
+    </script>
+  </body>
+</html>

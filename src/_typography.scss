@@ -1,0 +1,84 @@
+//
+//
+//  Typography & Code Format
+//
+//
+
+//-----------------------------------------------------------------------------
+// Font
+//-----------------------------------------------------------------------------
+pre, code, kbd, samp {
+  font-family: $font-monospace;
+}
+
+
+//-----------------------------------------------------------------------------
+// Typography
+//-----------------------------------------------------------------------------
+i {
+  font-style: italic;
+}
+
+b, strong {
+  font-weight: 575;
+}
+
+var {
+  font-style: italic;
+  font-weight: 575;
+}
+
+small {
+}
+
+mark {
+  padding: 0 0.25rem;
+}
+
+kbd, code {
+  display: inline-block;
+  font-size: 1.4rem;
+  line-height: 1.2rem;
+  border-radius: $radius;
+}
+
+code {
+  padding: 0.5rem 0.3rem;
+}
+
+kbd {
+  padding: 0.5rem 0.9rem;
+  border-width: 1px;
+  border-style: solid;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
+}
+
+blockquote {
+  margin: 1.5rem;
+  padding: 0.3rem 1.0rem;
+  font-style: italic;
+  border-left-width: 1px;
+  border-left-style: solid;
+
+  footer {
+    font-size: 0.8em;
+    margin: 0.5rem;
+  }
+}
+
+
+//-----------------------------------------------------------------------------
+// Code Format
+//-----------------------------------------------------------------------------
+pre {
+  padding-left: $space;
+  line-height: 2.0rem;
+  border-left-width: 0.1rem;
+  border-left-style: solid;
+
+  code {
+    background: none;
+  }
+}
+
+
