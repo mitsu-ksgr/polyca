@@ -3,6 +3,10 @@
 yarn-debug.log*
 yarn-error.log*
 
+# dist
+dist/*
+!dist/.gitkeep
+
 # Dependency directories
 node_modules/
 
