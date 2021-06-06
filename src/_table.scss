@@ -16,11 +16,10 @@ table {
 
   tr {
     padding: 0.35em;
-    border-bottom-width: 1.5px;
+    border-bottom-width: 1.0px;
     border-bottom-style: dotted;
 
     &:last-child {
-      border-bottom-width: 1.5px;
       border-bottom-style: solid;
     }
   }
