@@ -71,7 +71,7 @@ blockquote {
 // Code Format
 //-----------------------------------------------------------------------------
 pre {
-  padding: $space;
+  padding: $space * 0.5;
   line-height: 2.0rem;
   border-left-width: 0.1rem;
   border-left-style: solid;
