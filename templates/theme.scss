@@ -34,22 +34,33 @@ $theme-xxxx: (
   // buttons
   btn-bg:                     #ffffff,
   btn-text:                   #181818,
+  btn-border:                 #b3b3b3,
   btn-bg-hover:               darken(#ffffff, 15),
   btn-text-hover:             darken(#181818, 15),
+  btn-border-hover:           darken(#b3b3b3, 15),
   btn-bg-disabled:            darken(#ffffff, 30),
   btn-text-disabled:          darken(#181818, 30),
+  btn-border-disabled:        darken(#b3b3b3, 15),
+
   btn-submit-bg:              #4fc4cf,
   btn-submit-text:            #181818,
+  btn-submit-border:          #b3b3b3,
   btn-submit-bg-hover:        darken(#4fc4cf, 15),
   btn-submit-text-hover:      darken(#181818, 15),
+  btn-submit-border-hover:    darken(#b3b3b3, 15),
   btn-submit-bg-disabled:     darken(#4fc4cf, 30),
   btn-submit-text-disabled:   darken(#181818, 30),
+  btn-submit-border-disabled: darken(#b3b3b3, 15),
+
   btn-reset-bg:               #ffffff,
   btn-reset-text:             #181818,
+  btn-reset-border:           #b3b3b3,
   btn-reset-bg-hover:         darken(#ffffff, 15),
   btn-reset-text-hover:       darken(#181818, 15),
+  btn-reset-border-hover:     darken(#b3b3b3, 15),
   btn-reset-bg-disabled:      darken(#ffffff, 30),
   btn-reset-text-disabled:    darken(#181818, 30),
+  btn-reset-border-disabled:  darken(#b3b3b3, 15),
 );
 
 
