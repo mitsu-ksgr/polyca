@@ -37,22 +37,33 @@ $theme-light: (
   // buttons
   btn-bg:                     #ffffff,
   btn-text:                   #181818,
+  btn-border:                 #b3b3b3,
   btn-bg-hover:               darken(#ffffff, 15),
   btn-text-hover:             darken(#181818, 15),
+  btn-border-hover:           darken(#b3b3b3, 15),
   btn-bg-disabled:            darken(#ffffff, 30),
   btn-text-disabled:          darken(#181818, 30),
+  btn-border-disabled:        darken(#b3b3b3, 15),
+
   btn-submit-bg:              #ffffff,
   btn-submit-text:            #181818,
+  btn-submit-border:          #b3b3b3,
   btn-submit-bg-hover:        darken(#ffffff, 15),
   btn-submit-text-hover:      darken(#181818, 15),
+  btn-submit-border-hover:    darken(#b3b3b3, 15),
   btn-submit-bg-disabled:     darken(#4fc4cf, 30),
   btn-submit-text-disabled:   darken(#181818, 30),
+  btn-submit-border-disabled: darken(#b3b3b3, 15),
+
   btn-reset-bg:               #ffffff,
   btn-reset-text:             #181818,
+  btn-reset-border:           #b3b3b3,
   btn-reset-bg-hover:         darken(#ffffff, 15),
   btn-reset-text-hover:       darken(#181818, 15),
+  btn-reset-border-hover:     darken(#b3b3b3, 15),
   btn-reset-bg-disabled:      darken(#ffffff, 30),
   btn-reset-text-disabled:    darken(#181818, 30),
+  btn-reset-border-disabled:  darken(#b3b3b3, 15),
 );
 
 
@@ -114,13 +125,16 @@ select option {
 button {
   background: map-get($theme-light, btn-bg);
   color: map-get($theme-light, btn-text);
+  border-color: map-get($theme-light, btn-border);
   &:hover {
     background: map-get($theme-light, btn-bg-hover);
     color: map-get($theme-light, btn-text-hover);
+    border-color: map-get($theme-light, btn-border-hover);
   }
   &[disabled] {
     background: map-get($theme-light, btn-bg-disabled);
     color: map-get($theme-light, btn-text-disabled);
+    border-color: map-get($theme-light, btn-border-disabled);
   }
 }
 
@@ -128,13 +142,16 @@ button[type="submit"],
 input[type="submit"] {
   background: map-get($theme-light, btn-submit-bg);
   color: map-get($theme-light, btn-submit-text);
+  border-color: map-get($theme-light, btn-submit-border);
   &:hover {
     background: map-get($theme-light, btn-submit-bg-hover);
     color: map-get($theme-light, btn-submit-text-hover);
+    border-color: map-get($theme-light, btn-submit-border-hover);
   }
   &[disabled] {
     background: map-get($theme-light, btn-submit-bg-disabled);
     color: map-get($theme-light, btn-submit-text-disabled);
+    border-color: map-get($theme-light, btn-submit-border-disabled);
   }
 }
 
@@ -142,13 +159,16 @@ button[type="reset"],
 input[type="reset"] {
   background: map-get($theme-light, btn-reset-bg);
   color: map-get($theme-light, btn-reset-text);
+  border-color: map-get($theme-light, btn-reset-border);
   &:hover {
     background: map-get($theme-light, btn-reset-bg-hover);
     color: map-get($theme-light, btn-reset-text-hover);
+    border-color: map-get($theme-light, btn-reset-border-hover);
   }
   &[disabled] {
     background: map-get($theme-light, btn-reset-bg-disabled);
     color: map-get($theme-light, btn-reset-text-disabled);
+    border-color: map-get($theme-light, btn-reset-border-disabled);
   }
 }
 

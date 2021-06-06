@@ -58,13 +58,16 @@ body.theme-xxxx {
   button {
     background: map-get($theme-xxxx, btn-bg);
     color: map-get($theme-xxxx, btn-text);
+    border-color: map-get($theme-xxxx, btn-border);
     &:hover {
       background: map-get($theme-xxxx, btn-bg-hover);
       color: map-get($theme-xxxx, btn-text-hover);
+      border-color: map-get($theme-xxxx, btn-border-hover);
     }
     &[disabled] {
       background: map-get($theme-xxxx, btn-bg-disabled);
       color: map-get($theme-xxxx, btn-text-disabled);
+      border-color: map-get($theme-xxxx, btn-border-disabled);
     }
   }
 
@@ -72,13 +75,16 @@ body.theme-xxxx {
   input[type="submit"] {
     background: map-get($theme-xxxx, btn-submit-bg);
     color: map-get($theme-xxxx, btn-submit-text);
+    border-color: map-get($theme-xxxx, btn-submit-border);
     &:hover {
       background: map-get($theme-xxxx, btn-submit-bg-hover);
       color: map-get($theme-xxxx, btn-submit-text-hover);
+      border-color: map-get($theme-xxxx, btn-submit-border-hover);
     }
     &[disabled] {
       background: map-get($theme-xxxx, btn-submit-bg-disabled);
       color: map-get($theme-xxxx, btn-submit-text-disabled);
+      border-color: map-get($theme-xxxx, btn-submit-border-disabled);
     }
   }
 
@@ -86,13 +92,16 @@ body.theme-xxxx {
   input[type="reset"] {
     background: map-get($theme-xxxx, btn-reset-bg);
     color: map-get($theme-xxxx, btn-reset-text);
+    border-color: map-get($theme-xxxx, btn-reset-border);
     &:hover {
       background: map-get($theme-xxxx, btn-reset-bg-hover);
       color: map-get($theme-xxxx, btn-reset-text-hover);
+      border-color: map-get($theme-xxxx, btn-reset-border-hover);
     }
     &[disabled] {
       background: map-get($theme-xxxx, btn-reset-bg-disabled);
       color: map-get($theme-xxxx, btn-reset-text-disabled);
+      border-color: map-get($theme-xxxx, btn-reset-border-disabled);
     }
   }
 }
