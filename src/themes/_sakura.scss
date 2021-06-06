@@ -39,22 +39,33 @@ $theme-sakura: (
   // buttons
   btn-bg:                     #ffffff,
   btn-text:                   #181818,
+  btn-border:                 #30363d,
   btn-bg-hover:               darken(#ffffff, 15),
   btn-text-hover:             darken(#181818, 15),
+  btn-border-hover:           darken(#b3b3b3, 15),
   btn-bg-disabled:            darken(#ffffff, 30),
   btn-text-disabled:          darken(#181818, 30),
+  btn-border-disabled:        darken(#b3b3b3, 15),
+
   btn-submit-bg:              #4fc4cf,
   btn-submit-text:            #181818,
+  btn-submit-border:          #b3b3b3,
   btn-submit-bg-hover:        darken(#4fc4cf, 15),
   btn-submit-text-hover:      darken(#181818, 15),
+  btn-submit-border-hover:    darken(#b3b3b3, 15),
   btn-submit-bg-disabled:     darken(#4fc4cf, 30),
   btn-submit-text-disabled:   darken(#181818, 30),
+  btn-submit-border-disabled: darken(#b3b3b3, 15),
+
   btn-reset-bg:               #ffffff,
   btn-reset-text:             #181818,
+  btn-reset-border:           #b3b3b3,
   btn-reset-bg-hover:         darken(#ffffff, 15),
   btn-reset-text-hover:       darken(#181818, 15),
+  btn-reset-border-hover:     darken(#b3b3b3, 15),
   btn-reset-bg-disabled:      darken(#ffffff, 30),
   btn-reset-text-disabled:    darken(#181818, 30),
+  btn-reset-border-disabled:  darken(#b3b3b3, 15),
 );
 
 
@@ -68,7 +79,6 @@ body.theme-sakura {
 
   article {
     background: map-get($theme-sakura, bg);
-    border-color: map-get($theme-sakura, border-thin);
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -120,13 +130,16 @@ body.theme-sakura {
   button {
     background: map-get($theme-sakura, btn-bg);
     color: map-get($theme-sakura, btn-text);
+    border-color: map-get($theme-sakura, btn-border);
     &:hover {
       background: map-get($theme-sakura, btn-bg-hover);
       color: map-get($theme-sakura, btn-text-hover);
+      border-color: map-get($theme-sakura, btn-border-hover);
     }
     &[disabled] {
       background: map-get($theme-sakura, btn-bg-disabled);
       color: map-get($theme-sakura, btn-text-disabled);
+      border-color: map-get($theme-sakura, btn-border-disabled);
     }
   }
 
@@ -134,13 +147,16 @@ body.theme-sakura {
   input[type="submit"] {
     background: map-get($theme-sakura, btn-submit-bg);
     color: map-get($theme-sakura, btn-submit-text);
+    border-color: map-get($theme-sakura, btn-submit-border);
     &:hover {
       background: map-get($theme-sakura, btn-submit-bg-hover);
       color: map-get($theme-sakura, btn-submit-text-hover);
+      border-color: map-get($theme-sakura, btn-submit-border-hover);
     }
     &[disabled] {
       background: map-get($theme-sakura, btn-submit-bg-disabled);
       color: map-get($theme-sakura, btn-submit-text-disabled);
+      border-color: map-get($theme-sakura, btn-submit-border-disabled);
     }
   }
 
@@ -148,13 +164,16 @@ body.theme-sakura {
   input[type="reset"] {
     background: map-get($theme-sakura, btn-reset-bg);
     color: map-get($theme-sakura, btn-reset-text);
+    border-color: map-get($theme-sakura, btn-reset-border);
     &:hover {
       background: map-get($theme-sakura, btn-reset-bg-hover);
       color: map-get($theme-sakura, btn-reset-text-hover);
+      border-color: map-get($theme-sakura, btn-reset-border-hover);
     }
     &[disabled] {
       background: map-get($theme-sakura, btn-reset-bg-disabled);
       color: map-get($theme-sakura, btn-reset-text-disabled);
+      border-color: map-get($theme-sakura, btn-reset-border-disabled);
     }
   }
 }
