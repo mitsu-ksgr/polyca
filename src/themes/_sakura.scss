@@ -11,17 +11,17 @@
 
 $theme-sakura: (
   bg:                         #fec7d7,
-  headline:                   #fffffe,
-  text:                       #fffffe,
-  text-thin:                  lighten(#fffffe, 25),
-  link:                       #e53170,
-  border:                     #181818,
-  border-thin:                lighten(#181818, 70),
+  headline:                   #ffeeff,
+  text:                       #f9f8f9,
+  text-thin:                  lighten(#f9f8f9, 25),
+  link:                       #ff77ff,//#e53170,
+  border:                     #ff80ff,
+  border-thin:                lighten(#ff80ff, 70),
 
   // pre
-  pre-bg:                     #fffffe,
+  pre-bg:                     lighten(#fec7d7, 3),//#e600e6,
   pre-border:                 #cbff00,
-  pre-text:                   #2e2e2e,
+  pre-text:                   #ffffff,
 
   // code
   code-bg:                    #daf1e0,
@@ -174,6 +174,15 @@ body.theme-sakura {
       background: map-get($theme-sakura, btn-reset-bg-disabled);
       color: map-get($theme-sakura, btn-reset-text-disabled);
       border-color: map-get($theme-sakura, btn-reset-border-disabled);
+    }
+  }
+
+  form {
+    * {
+      border-color: map-get($theme-sakura, border-thin);
+    }
+    fieldset {
+      border-color: map-get($theme-sakura, border);
     }
   }
 }
