@@ -104,5 +104,14 @@ body.theme-xxxx {
       border-color: map-get($theme-xxxx, btn-reset-border-disabled);
     }
   }
+
+  form {
+    * {
+      border-color: map-get($theme-xxxx, border-thin);
+    }
+    fieldset {
+      border-color: map-get($theme-xxxx, border);
+    }
+  }
 }
 

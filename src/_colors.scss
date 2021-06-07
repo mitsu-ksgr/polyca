@@ -13,8 +13,8 @@ $theme-light: (
   text:                       #2e2e2e,
   text-thin:                  lighten(#2e2e2d, 25),
   link:                       #4fc4cf,
-  border:                     #181818,
-  border-thin:                lighten(#181818, 70),
+  border:                     #b3b3b3,
+  border-thin:                #d9d9d9,
 
   // pre
   pre-bg:                     #f8f8f8,
@@ -169,6 +169,15 @@ input[type="reset"] {
     background: map-get($theme-light, btn-reset-bg-disabled);
     color: map-get($theme-light, btn-reset-text-disabled);
     border-color: map-get($theme-light, btn-reset-border-disabled);
+  }
+}
+
+form {
+  * {
+    border-color: map-get($theme-light, border-thin);
+  }
+  fieldset {
+    border-color: map-get($theme-light, border);
   }
 }
 
