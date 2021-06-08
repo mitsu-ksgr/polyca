@@ -12,9 +12,10 @@ $theme-dark: (
   link:                       #ff8906,
   border:                     #181818,
   border-thin:                lighten(#181818, 70),
+  border-focus:               lighten(#181818, 50),
 
   // pre
-  pre-bg:                     #ffe6ff,
+  pre-bg:                     #2d333b,
   pre-border:                 #cbff00,
   pre-text:                   #f0f1f4,
 

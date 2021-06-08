@@ -17,6 +17,7 @@ $theme-dark: (
   link:                       #ff8906,
   border:                     #181818,
   border-thin:                lighten(#181818, 70),
+  border-focus:               lighten(#181818, 50),
 
   // pre
   pre-bg:                     #2d333b,
@@ -180,6 +181,9 @@ body.theme-dark {
   form {
     * {
       border-color: map-get($theme-dark, border-thin);
+    }
+    *:focus {
+      outline-color: map-get($theme-dark, border-focus);
     }
     fieldset {
       border-color: map-get($theme-dark, border);
