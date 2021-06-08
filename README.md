@@ -9,6 +9,7 @@ polyca css is css framework for little work.
 - easy to switch themes.
 - easy to make new theme.
 
+check [detail](www.ksgr.net/polyca/).
 
 ## development
 
