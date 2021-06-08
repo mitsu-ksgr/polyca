@@ -1,6 +1,6 @@
 {
   "name": "polyca-css",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "copyright": "2021",
   "description": "CSS Framework for me",
   "main": "index.js",
