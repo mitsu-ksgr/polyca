@@ -109,6 +109,9 @@ body.theme-xxxx {
     * {
       border-color: map-get($theme-xxxx, border-thin);
     }
+    *:focus {
+      outline-color: map-get($theme-xxxx, border-focus);
+    }
     fieldset {
       border-color: map-get($theme-xxxx, border);
     }

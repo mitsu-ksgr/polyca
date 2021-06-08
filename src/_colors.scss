@@ -15,6 +15,7 @@ $theme-light: (
   link:                       #4fc4cf,
   border:                     #b3b3b3,
   border-thin:                #d9d9d9,
+  border-focus:               darken(#d9d9d9, 25),
 
   // pre
   pre-bg:                     #f8f8f8,
@@ -175,6 +176,9 @@ input[type="reset"] {
 form {
   * {
     border-color: map-get($theme-light, border-thin);
+  }
+  *:focus {
+    outline-color: map-get($theme-light, border-focus);
   }
   fieldset {
     border-color: map-get($theme-light, border);
