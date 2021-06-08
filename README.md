@@ -1,15 +1,12 @@
-polyca css
-==========
+polyca
+======
 
-polyca css is css framework for little work.
+Polyca is CSS framework for little work.
 
-- classless based css framework
-  - css class is almost never used, it is only used for theme.
-- simple style.
-- easy to switch themes.
-- easy to make new theme.
+It's simple, easy to use, and you can easily change the color theme.
 
 check [detail](www.ksgr.net/polyca/).
+
 
 ## development
 
