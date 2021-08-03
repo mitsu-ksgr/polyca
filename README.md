@@ -1,7 +1,7 @@
 polyca
 ======
 
-Polyca is CSS framework for little work.
+Polyca is CSS framework for small works.
 
 It's simple, easy to use, and you can easily change the color theme.
 
