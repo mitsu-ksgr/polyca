@@ -5,7 +5,7 @@ Polyca is CSS framework for small works.
 
 It's simple, easy to use, and you can easily change the color theme.
 
-check [detail](www.ksgr.net/polyca/).
+check [detail](http://www.ksgr.net/polyca/).
 
 
 ## development
