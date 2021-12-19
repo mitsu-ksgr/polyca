@@ -12,6 +12,7 @@ $theme-xxxx: (
   link:                       #4fc4cf,
   border:                     #181818,
   border-thin:                lighten(#181818, 70),
+  border-focus:               #181818,
 
   // pre
   pre-bg:                     #fffffe,
@@ -62,5 +63,4 @@ $theme-xxxx: (
   btn-reset-text-disabled:    darken(#181818, 30),
   btn-reset-border-disabled:  darken(#b3b3b3, 15),
 );
-
 
