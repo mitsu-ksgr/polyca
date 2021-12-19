@@ -96,15 +96,20 @@ blockquote {
   }
 }
 
+code {
+  background: map-get($theme-light, code-bg);
+  color: map-get($theme-light, code-text);
+}
+
 pre {
   background: map-get($theme-light, pre-bg);
   border-left-color: map-get($theme-light, pre-border);
   color: map-get($theme-light, pre-text);
-}
 
-code {
-  background: map-get($theme-light, code-bg);
-  color: map-get($theme-light, code-text);
+  code {
+    background: none;
+    color: map-get($theme-light, pre-text);
+  }
 }
 
 kbd {

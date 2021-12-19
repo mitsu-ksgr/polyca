@@ -101,15 +101,20 @@ body.theme-dark {
     }
   }
 
+  code {
+    background: map-get($theme-dark, code-bg);
+    color: map-get($theme-dark, code-text);
+  }
+
   pre {
     background: map-get($theme-dark, pre-bg);
     border-left-color: map-get($theme-dark, pre-border);
     color: map-get($theme-dark, pre-text);
-  }
 
-  code {
-    background: map-get($theme-dark, code-bg);
-    color: map-get($theme-dark, code-text);
+    code {
+      background: none;
+      color: map-get($theme-dark, pre-text);
+    }
   }
 
   kbd {

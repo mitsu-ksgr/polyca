@@ -28,15 +28,20 @@ body.theme-xxxx {
     }
   }
 
+  code {
+    background: map-get($theme-xxxx, code-bg);
+    color: map-get($theme-xxxx, code-text);
+  }
+
   pre {
     background: map-get($theme-xxxx, pre-bg);
     border-left-color: map-get($theme-xxxx, pre-border);
     color: map-get($theme-xxxx, pre-text);
-  }
 
-  code {
-    background: map-get($theme-xxxx, code-bg);
-    color: map-get($theme-xxxx, code-text);
+    code {
+      background: none;
+      color: map-get($theme-xxxx, pre-text);
+    }
   }
 
   kbd {

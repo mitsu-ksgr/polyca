@@ -102,15 +102,20 @@ body.theme-sakura {
     }
   }
 
+  code {
+    background: map-get($theme-sakura, code-bg);
+    color: map-get($theme-sakura, code-text);
+  }
+
   pre {
     background: map-get($theme-sakura, pre-bg);
     border-left-color: map-get($theme-sakura, pre-border);
     color: map-get($theme-sakura, pre-text);
-  }
 
-  code {
-    background: map-get($theme-sakura, code-bg);
-    color: map-get($theme-sakura, code-text);
+    code {
+      background: none;
+      color: map-get($theme-sakura, pre-text);
+    }
   }
 
   kbd {
