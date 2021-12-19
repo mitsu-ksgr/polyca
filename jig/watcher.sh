@@ -42,6 +42,7 @@ parse_args() {
 
 update() {
     yarn compile
+    yarn minify
 }
 
 main() {
